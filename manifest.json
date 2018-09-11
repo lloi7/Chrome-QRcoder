@@ -1,0 +1,22 @@
+{
+	"name":"QRcoder",
+	"version":"1.0.0",
+	"manifest_version":2,
+	"description":"Convert the web address to QRcode",
+	"icons":{
+		"16":"icon16.png"
+	},
+	"browser_action":{
+		"default_icon":"icon16.png",
+		"default_title":"QRcoder",
+		"default_popup":"popup.html"
+	},
+	"permissions":[
+		"tabs",
+		"declarativeContent"
+	],
+	"background":{
+		"script":"background.js"
+	}
+}
+
